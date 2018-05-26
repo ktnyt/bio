@@ -12,7 +12,7 @@ func (f FASTA) ID() string {
 }
 
 // String returns the textual representation of the sequence.
-func (f FASTA) String() string {
+func (f FASTA) Seq() string {
 	return f.Sequence
 }
 
